@@ -1,7 +1,7 @@
-# @study-lenses/create-package
+# @study-lenses/create
 
-[![npm version](https://img.shields.io/npm/v/@study-lenses/create-package.svg)](https://www.npmjs.com/package/@study-lenses/create-package)
-[![CI](https://github.com/codeschoolinabox/sl-create-package/actions/workflows/ci.yml/badge.svg)](https://github.com/codeschoolinabox/sl-create-package/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@study-lenses/create.svg)](https://www.npmjs.com/package/@study-lenses/create)
+[![CI](https://github.com/codeschoolinabox/sl-create/actions/workflows/ci.yml/badge.svg)](https://github.com/codeschoolinabox/sl-create/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 > CLI scaffolder that generates new `@study-lenses` packages from the standard template,
@@ -25,7 +25,7 @@ Not installed as a dependency. Run directly:
 ```bash
 npm create @study-lenses
 # or
-npx @study-lenses/create-package
+npx @study-lenses/create
 ```
 
 ## Quick Start
@@ -61,7 +61,7 @@ standard template, all placeholders replaced, git initialized, and dependencies 
 ## API Reference
 
 Generated from TSDoc comments in source. Run `npm run docs` locally, or see the
-[hosted API docs](https://codeschoolinabox.github.io/sl-create-package/).
+[hosted API docs](https://codeschoolinabox.github.io/sl-create/).
 
 ## Architecture
 

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 /**
- * CLI entry point for @study-lenses/create-package.
+ * CLI entry point for @study-lenses/create.
  *
  * Usage: npm create @study-lenses
- *    or: npx @study-lenses/create-package
+ *    or: npx @study-lenses/create
  */
 
 import path from 'node:path';

@@ -1,4 +1,4 @@
-# @study-lenses/create-package — Architecture & Decisions
+# @study-lenses/create — Architecture & Decisions
 
 ## Why this package exists
 

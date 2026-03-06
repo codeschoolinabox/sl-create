@@ -1,7 +1,7 @@
 name: Bug Report
 description: Report a bug
-title: "[Bug]: "
-labels: ["bug"]
+title: '[Bug]: '
+labels: ['bug']
 body:
   - type: markdown
     attributes:
@@ -26,12 +26,12 @@ body:
         Minimal code example that demonstrates the bug.
         Include the exact code, configuration, and function calls.
       placeholder: |
-        ```javascript
-        import { trace } from '@study-lenses/create-package';
-
-        const result = trace(...);
-        // Expected: [...]
-        // Actual: [...]
+        ```bash
+        npm create @study-lenses
+        # Package name: my-tool
+        # Description: My tool description
+        # Expected: sl-my-tool/ created with all placeholders replaced
+        # Actual: [describe what happened]
         ```
     validations:
       required: true
@@ -56,8 +56,8 @@ body:
     id: node-version
     attributes:
       label: Node.js Version
-      description: "Run `node --version` and paste the output."
-      placeholder: "v22.0.0"
+      description: 'Run `node --version` and paste the output.'
+      placeholder: 'v22.0.0'
     validations:
       required: true
 
@@ -77,8 +77,8 @@ body:
     id: package-version
     attributes:
       label: Package Version
-      description: "The version from your package.json or `npm ls @study-lenses/create-package`."
-      placeholder: "1.0.0"
+      description: 'The version from your package.json or `npm ls @study-lenses/create`.'
+      placeholder: '1.0.0'
     validations:
       required: true
 
