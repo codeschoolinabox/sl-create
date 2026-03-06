@@ -1,6 +1,6 @@
 {
   "name": "@study-lenses/create",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Scaffold new @study-lenses packages from the standard template",
   "type": "module",
   "bin": {
